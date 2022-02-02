@@ -15,6 +15,7 @@ const NavLinks = () => {
                 <h2>Portfolio</h2>
             </div>
             <div>
+                <a href="#">Home</a>
                 <a href="#">My Works</a>
                 <a href="#">Download My Resume</a>
             </div>
