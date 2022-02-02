@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  --primary-color:#651a55;
   height:100vh;
   width:100%;
   position:relative;
@@ -144,4 +144,104 @@
     top:110%;
     transform: translateX(-20px) rotate(360deg);
   }
+}
+
+
+.container{
+  width:90%;
+  margin: auto;
+}
+
+.home{
+  position: absolute;
+  width:100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home h1{
+  font-family:Reggae One;
+  font-size: 60px;
+  color:var(--primary-color);
+  text-shadow: 3px 3px 6px #999;
+}
+
+.home .top-sub-header{
+  font-size: 30px;
+  font-family: Barlow;
+  font-weight: 500;
+  color:var(--primary-color);
+}
+
+.home .bot-sub-header{
+  font-size: 20px;
+  font-family: Barlow;
+  font-weight: 400;
+  padding-top:15px;
+  color:var(--primary-color);
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.nav-links{
+  display:flex;
+  justify-content: space-between;
+  margin-right: 1px;
+  padding-top:20px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.nav-links a:nth-child(1){
+  margin-right:20px;
+}
+
+.home-link{
+  display: inline-block;
+  text-decoration: none;
+  margin-top:30px;
+  color: var(--primary-color);
+  padding:10px 20px;
+  border:1px solid var(--primary-color);
+  border-radius: 30px;
+  font-weight: 800;
+  position:relative;
+  transition:0.2s linear;
+}
+
+.home-link:hover{
+  background-color: var(--primary-color);
+  color:#fff;
+  font-weight: 800;
+}
+
+.shuriken{
+  width:20px;
+  animation:shuriken 1s linear infinite;
+  margin-right:5px;
+}
+
+.logo h2{
+  font-family: Reggae One;
+  color: var(--primary-color);
+}
+
+@keyframes shuriken {
+  0%{
+    transform:rotate(0deg)
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.logo{
+  display:flex;
 }
