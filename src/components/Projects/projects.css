@@ -1,0 +1,108 @@
+.left-section {
+    width:40%;
+}
+
+.left-section > h1{
+    font-family: Reggae One;
+    padding-top:100px;
+    color:var(--primary-color);
+}
+
+.right-section{
+    width:60%;
+}
+
+.project-title{
+    margin-top:40px;
+}
+
+.project-title-container{
+    background:white;
+    width:70%;
+    padding:20px 20px;
+    border-radius:5px;
+    background: linear-gradient(to right bottom , rgba(255,255,255,1) , rgba(255,255,255,0.3));
+}
+
+.project-title-container:hover{
+    cursor: pointer;
+}
+
+.project-title-container span{
+    font-family: Reggae One;
+    color: var(--primary-color);
+}
+
+.project-title-container p{
+    font-family: Barlow;
+    font-weight:500;
+    color: var(--primary-color);
+}
+
+.project-details{
+    margin-top:80px;
+}
+
+.project-details-container{
+    background: #fff;
+    padding:40px;
+    background:linear-gradient(to right bottom , rgba(255,255,255,1) , rgba(255,255,255,0.3));
+    color:var(--primary-color);
+}
+
+.project-details-container h1{
+    font-family: Reggae One;
+    font-size: 40px;
+    color: #111;
+}
+
+.project-details-container .flex p{
+    padding-top:10px;
+    font-size: 18px;
+}
+
+.project-details-container .flex div:nth-child(2){
+    width:10%;
+    padding-top:20px;
+}
+
+.project-details-container .flex i{
+    font-size: 25px;
+    margin-top:0px;
+}
+
+.project-details-container p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Barlow;
+    line-height:1.5;
+}
+
+.tech h3{
+    padding-top:30px;
+    font-family: Reggae One;
+}
+
+.tech-used{
+    display:flex;
+}
+
+.tech-container{
+    background: var(--primary-color);
+    margin-top:20px;
+    border-radius: 30px;
+}
+
+.mr-1{
+    margin-right:15px;
+}
+
+.tech-container p{
+    padding: 5px 20px;
+    color:#fff;
+}
+
+.project-title-container{
+    margin-bottom: 20px;
+}

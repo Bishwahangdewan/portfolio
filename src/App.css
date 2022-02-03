@@ -204,8 +204,13 @@
   border-bottom:3px solid var(--primary-color);
 }
 
-.nav-links a:nth-child(1),.nav-links a:nth-child(2){
+.nav-links a:nth-child(1),.nav-links a:nth-child(2) , .nav-links a:nth-child(3){
   margin-right:20px;
+}
+
+.socials i{
+  font-size: 18px;
+  color:var(--primary-color);
 }
 
 .home-link{
@@ -293,4 +298,17 @@
     left:50px;
     transform: rotate(360deg);
   }
+}
+
+
+.flex{
+  display:flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.bold-text{
+  font-weight: 700;
 }
